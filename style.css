@@ -24,7 +24,8 @@
 }
 
 
-.form_border{border: 2px solid #C8C7C9;
+.form_border{
+    border: 2px solid #C8C7C9;
 	position: relative;
     padding:6px;
     bottom: 30px;   
@@ -77,7 +78,7 @@ font-size: 30px;
 
 .checkbox-inline{
 margin-top: 0px;	
-font-size: 25px;		
+font-size: 18px;		
 }
 
 
@@ -143,4 +144,21 @@ font-size: 18px;
 border: 2px solid #C8C7C9;
 text-align: center;
 
+}
+
+.main-content {
+    padding-top: 90px;
+}
+
+/* Social Media Icons
+----------------------------------------------- */
+
+.socialIcons img {
+    margin: 100px;
+}
+
+
+a.socialIcons:hover {
+    opacity: .8;
+    filter:alpha(opacity=80);
 }
