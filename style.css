@@ -127,7 +127,7 @@ font-size: 18px;
 }
 
 .breadcrumb {
-padding: 8px 15px;
+padding: 10px 15px;
 margin-bottom: 0px;
 list-style: none;
 background-color: #f5f5f5;
@@ -140,8 +140,9 @@ text-align: center;
 .camera_tag{
     border: 2px solid #C8C7C9;
     height: 320px;
-    margin-top: 25px; 
+    margin-top:25px; 
     background-color: #f5f5f5;
+    margin-bottom: 65px;
 
 }
 
@@ -164,7 +165,6 @@ text-align: center;
     color: #3E8ACC
 }
 
-#
 
 .ctagicons {
     color: #3E8ACC;
@@ -189,7 +189,7 @@ text-align: center;
 
 .socialIcons i {
     margin: 0 30px;
-    color:#333333;
+    color:black;
 }
 
 
