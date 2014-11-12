@@ -150,32 +150,18 @@ text-align: center;
     padding-top: 90px;
 }
 
-#ctagrec {
-    margin-top: 130px;
-    color: #3E8ACC
-}
-
-#faup {
-    margin-top: 130px;
-    color: #3E8ACC
-}
-
-#mobile {
-    margin-top: 130px;
-    color: #3E8ACC
-}
-
-
-.ctagicons {
+#ctagrec, #faup, #mobile {
     color: #3E8ACC;
-
+    display: inline-block;
+    width: 32.9%;
+    text-align: center;
+    margin: 20.3333% 0 0;
 }
 
 .vidroomicons {
     color: #3E8ACC;
     margin:15px;
     margin-bottom: 0px; 
-
 }
 
 
