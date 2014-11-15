@@ -139,7 +139,7 @@ text-align: center;
 
 .camera_tag{
     border: 2px solid #C8C7C9;
-    height: 320px;
+    height: 250px;
     margin-top:25px; 
     background-color: #f5f5f5;
     margin-bottom: 65px;
@@ -155,7 +155,7 @@ text-align: center;
     display: inline-block;
     width: 31.9%;
     text-align: center;
-    margin: 20.3333% 0 0;
+    margin: 15.3333% 0 0;
 }
 
 .vidroomicons {
@@ -231,12 +231,26 @@ text-align: center;
      margin-top: 0px;
 }
 
+#hbox2 h1{
+    font-size: 28px;
+    text-align: center;
+     margin-top: 0px;
+}
+
 #coname{
     margin-top:10px;
 }
 
 #variable{
     margin-top:10px;
+}
+
+#genurl{
+    margin-top: 15px;
+}
+
+#checsect{ 
+    margin-left: 65px;
 }
 
 /*///MEDIA QUERIES///*/
