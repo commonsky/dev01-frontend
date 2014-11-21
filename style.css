@@ -189,7 +189,7 @@ text-align: center;
     margin-left: 40px;
     margin-right: 40px; 
     background-color: #f5f5f5;
-    margin-bottom: 65px;
+    margin-bottom: 25px;
     margin-top:25px;  
 
 }
@@ -198,10 +198,21 @@ text-align: center;
     border: 2px solid #C8C7C9;
     height: 320px;
     background-color: #f5f5f5;
-    margin-bottom: 65px;
+    margin-bottom: 25px;
     margin-top:25px;       
 }
 
+#urlprevbox{
+    border: 2px solid #C8C7C9;
+    height: 320px;
+    width: 84.33333333%;
+    background-color: #f5f5f5;
+    margin-bottom: 65px;
+    margin-top:0px;
+    margin-left: 55px;
+    margin-right: 40px;
+    padding: 0px;
+}
 
 #hbox {
     border: 2px solid #C8C7C9;
@@ -225,6 +236,17 @@ text-align: center;
 
 }
 
+#hbox3 {
+    border: 2px solid #C8C7C9;
+    height: 32px;
+    border-right:0px;
+    border-top: 0px;
+    border-left: 0px; 
+    background-color: #7bafdc;
+   
+
+}
+
 #hbox h1{
     font-size: 28px;
     text-align: center;
@@ -237,6 +259,12 @@ text-align: center;
      margin-top: 0px;
 }
 
+#hbox3 h1{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 0px;
+}
+
 #coname{
     margin-top:10px;
 }
@@ -246,7 +274,11 @@ text-align: center;
 }
 
 #genurl{
-    margin-top: 15px;
+    margin-top: 25px;
+}
+
+#sendemail{
+    margin-top: 35px;
 }
 
 #checsect{ 
@@ -279,11 +311,32 @@ text-align: center;
         margin-top:5px;
         margin-right: 40px;
         margin-left: 40px;
-        margin-bottom: 115px;}
+        margin-bottom: 15px;}
 
     #hbox h1{
         font-size: 21px;}
       }
+
+
+@media only screen and (max-width: 440px) {
+   #checsect{ 
+    margin-left: 35px;
+}
+    #hbox h1{
+        font-size: 21px;}
+
+    #hbox3 h1{
+    font-size: 21px;}
+
+     #urlprevbox{
+        margin-top:5px;
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-bottom: 115px;}
+
+      }      
+
+
 
 
 /* Social Media Icons
@@ -298,4 +351,48 @@ text-align: center;
 a.socialIcons:hover {
     opacity: .8;
     filter:alpha(opacity=80);
+}
+
+/* Social Media Icons
+----------------------------------------------- */
+
+.form-control-custom {
+  display: inline-block;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control-custom:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+.form-control-custom::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.form-control-custom:-ms-input-placeholder {
+  color: #999;
+}
+.form-control-custom::-webkit-input-placeholder {
+  color: #999;
+}
+.form-control-custom[disabled],
+.form-control-custom[readonly],
+fieldset[disabled] .form-control-custom {
+  cursor: not-allowed;
+  background-color: #eee;
+  opacity: 1;
 }
